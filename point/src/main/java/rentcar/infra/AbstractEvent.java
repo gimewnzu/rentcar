@@ -30,7 +30,7 @@ public class AbstractEvent {
 
     public void publish() {
         /**
-         * spring streams 방식
+         * spring streams 방식    
          */
         KafkaProcessor processor = PointApplication.applicationContext.getBean(
             KafkaProcessor.class
