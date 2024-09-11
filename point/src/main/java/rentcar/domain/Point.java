@@ -34,6 +34,8 @@ public class Point {
 
         PointIncreased pointIncreased = new PointIncreased(point);
         pointIncreased.publishAfterCommit();
+        NotAvailabled notAvailabled = new NotAvailabled(point);
+        notAvailabled.publishAfterCommit();
         */
 
         /** Example 2:  finding and process
@@ -45,6 +47,8 @@ public class Point {
 
             PointIncreased pointIncreased = new PointIncreased(point);
             pointIncreased.publishAfterCommit();
+            NotAvailabled notAvailabled = new NotAvailabled(point);
+            notAvailabled.publishAfterCommit();
 
          });
         */
